@@ -1,0 +1,72 @@
+#inventory {
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  top:20%;
+  left:32%;
+}
+
+*[id*="inventory_"] {
+  stroke-dashoffset:0;
+}
+
+
+#study {
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  top:20%;
+  left:34%;
+}
+
+*[id*="study_"] {
+  stroke-dashoffset:0;
+}
+
+#insta {
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  top:20%;
+  left:36%;
+}
+
+*[id*="insta_"] {
+  stroke-dashoffset:0;
+}
+
+#service {
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  top:20%;
+  left:38%;
+}
+
+*[id*="service_"] {
+  stroke-dashoffset:0;
+}
+
+#arenda {
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  top:30%;
+  left:32%;
+}
+
+*[id*="arenda_"] {
+  stroke-dashoffset:0;
+}
+
+#interier {
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  top:30%;
+  left:34%;
+}
+
+*[id*="interier_"] {
+  stroke-dashoffset:0;
+}
