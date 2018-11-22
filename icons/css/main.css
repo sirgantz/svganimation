@@ -1,9 +1,9 @@
 #inventory {
-  width: 200px;
+  width: 150px;
   overflow: hidden;
   position: relative;
   top:20%;
-  left:32%;
+  left:22%;
 }
 
 *[id*="inventory_"] {
@@ -12,11 +12,11 @@
 
 
 #study {
-  width: 200px;
+  width: 150px;
   overflow: hidden;
   position: relative;
   top:20%;
-  left:34%;
+  left:24%;
 }
 
 *[id*="study_"] {
@@ -24,11 +24,11 @@
 }
 
 #insta {
-  width: 200px;
+  width: 150px;
   overflow: hidden;
   position: relative;
   top:20%;
-  left:36%;
+  left:26%;
 }
 
 *[id*="insta_"] {
@@ -36,11 +36,11 @@
 }
 
 #service {
-  width: 200px;
+  width: 150px;
   overflow: hidden;
   position: relative;
   top:20%;
-  left:38%;
+  left:28%;
 }
 
 *[id*="service_"] {
@@ -48,11 +48,11 @@
 }
 
 #arenda {
-  width: 200px;
+  width: 150px;
   overflow: hidden;
   position: relative;
   top:30%;
-  left:32%;
+  left:22%;
 }
 
 *[id*="arenda_"] {
@@ -60,11 +60,11 @@
 }
 
 #interier {
-  width: 200px;
+  width: 150px;
   overflow: hidden;
   position: relative;
   top:30%;
-  left:34%;
+  left:24%;
 }
 
 *[id*="interier_"] {
