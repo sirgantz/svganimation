@@ -37,16 +37,6 @@ function linedraw(select) {
   linedraw(select);
   var select = inventory.select("#inventory_15");
   linedraw(select);
-  var select = inventory.select("#inventory_16");
-  linedraw(select);
-  var select = inventory.select("#inventory_17");
-  linedraw(select);
-  var select = inventory.select("#inventory_18");
-  linedraw(select);
-  var select = inventory.select("#inventory_19");
-  linedraw(select);
-  var select = inventory.select("#inventory_20");
-  linedraw(select);
 
 
   var study = Snap("#study");
@@ -66,6 +56,8 @@ function linedraw(select) {
   var select = study.select("#study_7");
   linedraw(select);
   var select = study.select("#study_8");
+  linedraw(select);
+  var select = study.select("#study_9");
   linedraw(select);
 
 
