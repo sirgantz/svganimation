@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script type="text/javascript" src="js/snap.js"></script>
+  </head>
+  <body>
+    <center>
+    <div id="container" class="container">
+  		<div id="scene" class="scene">
+        <div data-depth="0.15"><img id="back_" src="img/back_.png" style="opacity:1"></div>
+        <div data-depth="0.40" id="back0"><img src="img/back_0.png"></div>
+  			<div data-depth="0.35"><img id="back1" src="img/back1.png"></div>
+  			<div data-depth="0.30"><img id="back2" src="img/back2.png"></div>
+  			<div data-depth="0.25"><img id="back3" src="img/back3.png"></div>
+  		</div>
+  	</div>
+  </center>
+
+  <!-- Scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script type="text/javascript" src="js/meteam.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+  parallax.friction(0.04, 0.04);
+
+	</script>
+
+  </body>
+</html>
