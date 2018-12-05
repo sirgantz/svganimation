@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
   $("#back0").animate({'top': '25'}, 1000);
   setTimeout(function() {
@@ -10,7 +11,7 @@ $(document).ready(function() {
     }, 1000);
   }, 2000);
 });
-
+*/
 
 
 
