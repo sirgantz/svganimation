@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*[id*="absolute_"] {
+  position: absolute;
+  -webkit-transition: all 900ms;
+}
+
+
+
+*[id*="teamer"] {
+  position: absolute;
+  height: 100%;
+  -webkit-transition: all 400ms;
+}
+
+body {
+  background: #fdd632;
+}
+
+#knopka {
+  background: linear-gradient(86.23deg, #DE12FF 4.13%, #5718BD 100%);
+  color: white;
+  font-size: 1vw;
+  width: 8vw;
+  height:2vw;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  top: -4vw;
+  left: 2vw;
+}
+
+#ourteam {
+  width: 100%;
+  height: 27vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+#team_img {
+  margin-top: auto;
+  background: #111;
+  height: 100%;
+  width: 50%;
+}
+
+
+#designers {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+
+#copywriter {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+
+}
+
+#map {
+  user-select: none;
+}
+
+#ourteam img {
+  height: 100%;
+}
+
+#promobox {
+  background: black;
+  opacity: 0;
+}
+
+#team_map1 {
+  background: red;
+  opacity: 0.5;
+}
+
+
+.a_filter {
+  filter: grayscale(100%) brightness(40%);
+}
+
+#absolute_cop {
+  height: 100%;
+
+}
+
+#absolute_des {
+  height: 100%;
+}
+
+.plan_3 {
+  transform: scale(0.5);
+  filter: blur(10px) grayscale(100%) brightness(40%);
+  top:-10%;
+}
+
+.no_filter {
+  filter: blur(0px) grayscale(0%) brightness(100%);
+}
+
+.plan_1 {
+  transform: scale(1);
+  top:0%;
+  opacity: 1;
+}
+
+.plan_2 {
+  transform: scale(4) translate(0px, 0px);
+  opacity: 0;
+}
